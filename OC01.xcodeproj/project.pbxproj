@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A3286A5319BC960C00FBAE73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3286A5219BC960C00FBAE73 /* main.m */; };
+		A37E49AD19C31F1200670B35 /* Cirecle.m in Sources */ = {isa = PBXBuildFile; fileRef = A37E49AC19C31F1200670B35 /* Cirecle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		A3286A4F19BC960C00FBAE73 /* OC01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OC01; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3286A5219BC960C00FBAE73 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A37E49AB19C31F1200670B35 /* Cirecle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cirecle.h; sourceTree = "<group>"; };
+		A37E49AC19C31F1200670B35 /* Cirecle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cirecle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				A3286A5219BC960C00FBAE73 /* main.m */,
+				A37E49AB19C31F1200670B35 /* Cirecle.h */,
+				A37E49AC19C31F1200670B35 /* Cirecle.m */,
 			);
 			path = OC01;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3286A5319BC960C00FBAE73 /* main.m in Sources */,
+				A37E49AD19C31F1200670B35 /* Cirecle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +238,7 @@
 				A3286A5819BC960C00FBAE73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
